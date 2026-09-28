@@ -12,6 +12,7 @@
 */
 
 int is_prime(int n) {
+    
     // TODO: check if n is prime using loop up to sqrt(n)
     return 0; // placeholder
 }

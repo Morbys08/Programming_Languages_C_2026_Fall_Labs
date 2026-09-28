@@ -1,7 +1,7 @@
 /*
  * Lab 3, Task 2
- * Name: <your name>
- * Student ID: <your student ID>
+ * Name: <Alisultan Dadashov>
+ * Student ID: <251ADB251>
  *
  * Practice using pointers as function parameters.
  * Implement:
@@ -45,9 +45,15 @@ int main(void) {
 
 // Implement functions below
 void swap(int *x, int *y) {
+    if (x != y) {
+        int temp = *x;
+        *x = *y;
+        *y = temp; 
+    }
     // TODO: swap values using a temporary variable
 }
 
 void modify_value(int *x) {
+    *x = *x * 2;
     // TODO: multiply value by 2
 }
